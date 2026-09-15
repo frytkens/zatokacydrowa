@@ -310,7 +310,7 @@ img { max-width: 100%; display: block; }
 .fact-card strong { display: block; font-family: var(--font-display); font-size: 1.05rem; color: var(--color-primary); }
 .fact-card span { font-size: 0.85rem; color: var(--color-text-muted); }
 .fact-card { font-size: 1.4rem; line-height: 1; }
-.fact-card strong { margin-top: 0.5rem; }
+.fact-card strong { margin: 0.6rem 0 0.4rem; }
 .fact-card--link { display: flex; flex-direction: column; }
 .fact-card__link { margin-top: 0.7rem; font-size: 0.82rem; font-weight: 700; color: var(--color-accent); }
 .fact-card__link:hover { color: var(--color-primary); }
