@@ -213,6 +213,18 @@ DICT = [
     ("Ogrodzony, monitorowany teren", "Fenced, monitored grounds"),
     ("spokój dla rodziców podczas zabawy dzieci", "peace of mind for parents while the kids play"),
     ("Rodzinna atmosfera", "Family atmosphere"),
+
+    # ---- Otoczenie photos (garden lounge + entrance sign) ----
+    ("Kryta strefa wypoczynku w ogrodzie Zatoki Cydrowej", "Covered lounge area in the Zatoka Cydrowa garden"),
+    ("Wspólna przestrzeń na terenie", "Shared space on site"),
+    ("Zadaszona strefa relaksu w ogrodzie", "A covered lounge area in the garden"),
+    ("Przeszklona, zadaszona weranda z wygodnymi sofami — miejsce, gdzie można usiąść z kawą niezależnie od pogody, tuż obok trawnika i zieleni otaczającej budynek.", "A glazed, covered veranda with comfortable sofas — a place to sit down with a coffee whatever the weather, right next to the lawn and greenery around the building."),
+    ("Zadaszone i przeszklone", "Covered & glazed"),
+    ("Dostępne dla gości", "Available to guests"),
+    ("Budynek Zatoki Cydrowej od zewnątrz", "The Zatoka Cydrowa building from outside"),
+    ("Zatoka Cydrowa — widok z ogrodu", "Zatoka Cydrowa — view from the garden"),
+    ("Podświetlony szyld Zatoki Cydrowej przy wjeździe, ul. Grunwaldzka 12", "The illuminated Zatoka Cydrowa sign at the entrance, Grunwaldzka 12"),
+    ("Tego szyldu szukaj przy wjeździe na posesję.", "Look for this sign at the entrance to the property."),
     ("Co znajdziesz w strefie dla dzieci", "What you'll find in our kids' zone"),
     ("Sala zabaw „Zatoczka Cydrowa”", "The “Zatoczka Cydrowa” playroom"),
     ("Kameralna, bezpieczna przestrzeń na deszczowe dni.", "An intimate, safe space for rainy days."),
@@ -296,6 +308,7 @@ DICT = [
     # ---- Booking sidebar / shared booking blocks ----
     ("Rezerwacja telefoniczna", "Book by phone"),
     ("Klimatyzowany", "Air-conditioned"),
+    ("Zobacz wszystkie 18 zdjęć", "See all 18 photos"),
     ("Zobacz wszystkie zdjęcia", "See all photos"),
     ("powierzchnia", "floor area"),
     ("maks. gości", "max. guests"),
