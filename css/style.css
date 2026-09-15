@@ -272,17 +272,19 @@ img { max-width: 100%; display: block; }
 @media (max-width: 759px) { .hero { padding: 5rem 0 2.5rem; } }
 .hero__grid { display: grid; gap: 1.6rem; max-width: 720px; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 1.6rem; }
+.hero__actions .btn { justify-content: center; min-width: 15.5rem; }
 @media (max-width: 640px) {
   .hero__actions { flex-direction: column; }
-  .hero__actions .btn { width: 100%; justify-content: center; }
+  .hero__actions .btn { width: 100%; min-width: 0; justify-content: center; }
 }
 .hero p { color: rgba(255,255,255,0.82); }
 .hero .eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(2, 132, 199, 0.3);
+  background: rgba(6, 22, 37, 0.55);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--color-accent-light);
   padding: 0.4rem 0.9rem;
   border-radius: var(--radius-md);
