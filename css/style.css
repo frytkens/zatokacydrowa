@@ -569,6 +569,9 @@ img { max-width: 100%; display: block; }
 }
 .apt-top__row { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1rem; }
 .apt-top__row p { max-width: 60ch; font-size: 1.05rem; }
+@media (max-width: 640px) {
+  .apt-top__row > .btn { width: 100%; justify-content: center; }
+}
 
 /* Bento gallery */
 .bento {
