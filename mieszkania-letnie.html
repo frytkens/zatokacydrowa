@@ -211,7 +211,7 @@
 </div>
 
 <!-- Lightbox -->
-<div class="lightbox" id="lightbox">
+<div class="lightbox" id="lightbox" data-images='["gallery/jagielly-28/20210505_100233.jpg.webp", "gallery/jagielly-28/20210505_100247.jpg.webp", "gallery/jagielly-28/434433612_966053845191868_630872182313353552_n.webp", "gallery/jagielly-28/434438573_943174310682589_6559182721872778790_n.webp", "gallery/jagielly-28/434445597_1402291970460894_8906507095251191645_n.webp", "gallery/jagielly-28/434454794_8382604581756857_5641638877011185357_n.webp", "gallery/jagielly-28/434459805_1361055757940722_8017177507355662998_n.webp", "gallery/jagielly-28/435855058_1422022458455182_6588223026275414539_n.webp", "gallery/jagielly-28/436242494_1584102515775349_3680208937191550479_n.webp", "gallery/jagielly-28/436274527_1600931404021937_4635952862502696479_n.webp", "gallery/jagielly-28/436335418_1455533341717917_7174450344605928552_n.webp", "gallery/jagielly-28/436380209_929228512215971_2739562105641342893_n.webp", "gallery/jagielly-28/436566214_867271125158923_7244670943082340600_n.webp", "gallery/jagielly-28/436590931_400238379552746_3051254064081684262_n.webp", "gallery/jagielly-28/436636079_3755164744763661_6834938612221465300_n.webp", "gallery/jagielly-28/436787423_1479235475995232_5060774028040229474_n.webp", "gallery/jagielly-28/436837444_1113696149952588_8616243975087013667_n.webp", "gallery/jagielly-28/436917068_1092713685117923_463378074588378464_n.webp"]'>
   <div class="lightbox__top">
     <span>Mieszkania letnie — <span id="lightbox-counter">Zdjęcie 1 / 18</span></span>
     <button class="lightbox__close" onclick="closeLightbox()" aria-label="Zamknij galerię">✕</button>
@@ -224,51 +224,5 @@
 </div>
 
 <script src="js/main.js"></script>
-<script>
-  var galleryImages = [
-    "gallery/jagielly-28/20210505_100233.jpg.webp",
-    "gallery/jagielly-28/20210505_100247.jpg.webp",
-    "gallery/jagielly-28/434433612_966053845191868_630872182313353552_n.webp",
-    "gallery/jagielly-28/434438573_943174310682589_6559182721872778790_n.webp",
-    "gallery/jagielly-28/434445597_1402291970460894_8906507095251191645_n.webp",
-    "gallery/jagielly-28/434454794_8382604581756857_5641638877011185357_n.webp",
-    "gallery/jagielly-28/434459805_1361055757940722_8017177507355662998_n.webp",
-    "gallery/jagielly-28/435855058_1422022458455182_6588223026275414539_n.webp",
-    "gallery/jagielly-28/436242494_1584102515775349_3680208937191550479_n.webp",
-    "gallery/jagielly-28/436274527_1600931404021937_4635952862502696479_n.webp",
-    "gallery/jagielly-28/436335418_1455533341717917_7174450344605928552_n.webp",
-    "gallery/jagielly-28/436380209_929228512215971_2739562105641342893_n.webp",
-    "gallery/jagielly-28/436566214_867271125158923_7244670943082340600_n.webp",
-    "gallery/jagielly-28/436590931_400238379552746_3051254064081684262_n.webp",
-    "gallery/jagielly-28/436636079_3755164744763661_6834938612221465300_n.webp",
-    "gallery/jagielly-28/436787423_1479235475995232_5060774028040229474_n.webp",
-    "gallery/jagielly-28/436837444_1113696149952588_8616243975087013667_n.webp",
-    "gallery/jagielly-28/436917068_1092713685117923_463378074588378464_n.webp"
-  ];
-  var currentIndex = 0;
-  function updateLightbox() {
-    document.getElementById('lightbox-img').src = galleryImages[currentIndex];
-    document.getElementById('lightbox-counter').textContent = 'Zdjęcie ' + (currentIndex + 1) + ' / ' + galleryImages.length;
-  }
-  function openLightbox(e, i) {
-    if (e) e.preventDefault();
-    currentIndex = i;
-    updateLightbox();
-    document.getElementById('lightbox').classList.add('is-open');
-    return false;
-  }
-  function closeLightbox() {
-    document.getElementById('lightbox').classList.remove('is-open');
-  }
-  function nextImage() { currentIndex = (currentIndex + 1) % galleryImages.length; updateLightbox(); }
-  function prevImage() { currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length; updateLightbox(); }
-  document.addEventListener('keydown', function (ev) {
-    var lb = document.getElementById('lightbox');
-    if (!lb.classList.contains('is-open')) return;
-    if (ev.key === 'Escape') closeLightbox();
-    if (ev.key === 'ArrowRight') nextImage();
-    if (ev.key === 'ArrowLeft') prevImage();
-  });
-</script>
 </body>
 </html>

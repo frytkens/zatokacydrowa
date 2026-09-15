@@ -56,12 +56,12 @@
   <section class="section" style="padding-top:1.6rem;">
     <div class="container">
       <div class="gallery-grid">
-        <img src="gallery/sala-zabaw/Sala-zabaw-2.webp" alt="Sala zabaw Zatoczka Cydrowa — wnętrze">
-        <img src="gallery/sala-zabaw/Sala-zabaw-3.webp" alt="Sala zabaw Zatoczka Cydrowa — zabawki">
-        <img src="gallery/sala-zabaw/Sala-zabaw-4.webp" alt="Sala zabaw Zatoczka Cydrowa — kącik dla dzieci">
-        <img src="gallery/sala-zabaw/Plac-zabaw.webp" alt="Plac zabaw w ogrodzie Zatoki Cydrowej">
-        <img src="gallery/sala-zabaw/Muchomoryniebieskie.webp" alt="Dekoracje w ogrodzie Zatoki Cydrowej">
-        <img src="gallery/sala-zabaw/Kino-letnie.webp" alt="Kino letnie w ogrodzie Zatoki Cydrowej">
+        <a href="#" data-index="0" onclick="return openLightbox(event,0)"><img src="gallery/sala-zabaw/Sala-zabaw-2.webp" alt="Sala zabaw Zatoczka Cydrowa — wnętrze"></a>
+        <a href="#" data-index="1" onclick="return openLightbox(event,1)"><img src="gallery/sala-zabaw/Sala-zabaw-3.webp" alt="Sala zabaw Zatoczka Cydrowa — zabawki"></a>
+        <a href="#" data-index="2" onclick="return openLightbox(event,2)"><img src="gallery/sala-zabaw/Sala-zabaw-4.webp" alt="Sala zabaw Zatoczka Cydrowa — kącik dla dzieci"></a>
+        <a href="#" data-index="3" onclick="return openLightbox(event,3)"><img src="gallery/sala-zabaw/Plac-zabaw.webp" alt="Plac zabaw w ogrodzie Zatoki Cydrowej"></a>
+        <a href="#" data-index="4" onclick="return openLightbox(event,4)"><img src="gallery/sala-zabaw/Muchomoryniebieskie.webp" alt="Dekoracje w ogrodzie Zatoki Cydrowej"></a>
+        <a href="#" data-index="5" onclick="return openLightbox(event,5)"><img src="gallery/sala-zabaw/Kino-letnie.webp" alt="Kino letnie w ogrodzie Zatoki Cydrowej"></a>
       </div>
     </div>
   </section>
@@ -139,6 +139,19 @@
 
 <div class="mobile-call-bar">
   <a href="tel:+48797315001">📞 Zadzwoń: 797 315 001</a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" data-images='["gallery/sala-zabaw/Sala-zabaw-2.webp", "gallery/sala-zabaw/Sala-zabaw-3.webp", "gallery/sala-zabaw/Sala-zabaw-4.webp", "gallery/sala-zabaw/Plac-zabaw.webp", "gallery/sala-zabaw/Muchomoryniebieskie.webp", "gallery/sala-zabaw/Kino-letnie.webp"]'>
+  <div class="lightbox__top">
+    <span>Dla dzieci — <span id="lightbox-counter">Zdjęcie 1 / 6</span></span>
+    <button class="lightbox__close" onclick="closeLightbox()" aria-label="Zamknij galerię">✕</button>
+  </div>
+  <div class="lightbox__stage">
+    <button class="lightbox__nav lightbox__nav--prev" onclick="prevImage()" aria-label="Poprzednie zdjęcie">‹</button>
+    <img id="lightbox-img" src="" alt="">
+    <button class="lightbox__nav lightbox__nav--next" onclick="nextImage()" aria-label="Następne zdjęcie">›</button>
+  </div>
 </div>
 
 <script src="js/main.js"></script>

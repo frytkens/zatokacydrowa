@@ -665,8 +665,9 @@ img { max-width: 100%; display: block; }
 .lightbox.is-open { display: flex; }
 .lightbox__top { display: flex; align-items: center; justify-content: space-between; color: #fff; }
 .lightbox__close { background: rgba(255,255,255,0.1); border: none; color: #fff; width: 2.4rem; height: 2.4rem; border-radius: 50%; font-size: 1.2rem; cursor: pointer; }
-.lightbox__stage { flex: 1; display: flex; align-items: center; justify-content: center; margin: 1rem 0; position: relative; }
-.lightbox__stage img { max-height: 78vh; max-width: 90vw; object-fit: contain; border-radius: var(--radius-md); }
+.lightbox__stage { flex: 1; display: flex; align-items: center; justify-content: center; margin: 1rem 0; position: relative; overflow: hidden; touch-action: pan-y; }
+.lightbox__stage img { max-height: 78vh; max-width: 90vw; object-fit: contain; border-radius: var(--radius-md); cursor: zoom-in; transition: transform 0.25s ease; }
+.lightbox__stage img.is-zoomed { transform: scale(1.9); cursor: zoom-out; }
 .lightbox__nav { background: rgba(255,255,255,0.12); border: none; color: #fff; width: 3rem; height: 3rem; border-radius: 50%; font-size: 1.4rem; cursor: pointer; }
 .lightbox__nav--prev { position: absolute; left: 0.5rem; }
 .lightbox__nav--next { position: absolute; right: 0.5rem; }
