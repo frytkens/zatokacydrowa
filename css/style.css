@@ -786,6 +786,7 @@ img { max-width: 100%; display: block; }
 
 /* Booking sidebar */
 .booking-panel { background: var(--color-surface); border-radius: var(--radius-xl); padding: 1.5rem; box-shadow: var(--shadow-2); border: 1px solid var(--color-border); }
+.booking-panel--compact { max-width: 26rem; }
 .booking-panel__badge { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.25rem 0.7rem; border-radius: var(--radius-full); background: rgba(197,168,128,0.2); color: #8A6D44; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.6rem; }
 .booking-panel h3 { font-size: 1.2rem; margin-bottom: 0.3rem; }
 .booking-panel p { font-size: 0.88rem; }

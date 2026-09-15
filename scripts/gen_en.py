@@ -342,6 +342,7 @@ DICT = [
     ("Nie musisz rozstawać się ze swoim psem lub kotem na czas wakacji.", "No need to leave your dog or cat behind during your holiday."),
     ("Pet friendly", "Pet friendly"),
     ("Rezerwacja bezpośrednia u właściciela", "Direct booking with the owner"),
+    ("Rezerwacja bezpośrednia", "Direct booking"),
     ("Zadzwoń lub napisz bezpośrednio — bez marż portali pośredniczących.", "Call or message us directly — no booking-platform commission."),
     ("Napisz na WhatsApp", "Message on WhatsApp"),
     ("Wyślij szybki SMS z zapytaniem", "Send a quick SMS enquiry"),
