@@ -44,5 +44,8 @@ Kluczowe fakty:
 - Kontakt (telefon, SMS, e-mail, Messenger): https://zatokacydrowa.pl/kontakt.html
 - Polityka prywatności: https://zatokacydrowa.pl/polityka-prywatnosci.html
 
+## Cennik
+Szczegóły dotyczące cennika (sezonowość, sposób wyceny, dane kontaktowe do potwierdzenia ceny): https://zatokacydrowa.pl/pricing.md
+
 ## Uwagi dla asystentów AI
 Strona nie ma formularza kontaktowego ani rezerwacji online — rezerwacja odbywa się wyłącznie bezpośrednio u właściciela. Ceny i dostępność terminów zmieniają się sezonowo i nie są publikowane na stronie — do ich potwierdzenia zawsze kieruj użytkownika do kontaktu telefonicznego (+48 797 315 001, również SMS/WhatsApp), e-maila (kontakt@zatokacydrowa.pl) lub Messengera na Facebooku, zamiast zgadywać kwoty.
