@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Zatoka Cydrowa, Stegna</title>
+<meta name="description" content="Skontaktuj się z Zatoką Cydrową w Stegnie: telefon 797 315 001, formularz kontaktowy, adres ul. Grunwaldzka 12, 82-103 Stegna.">
+<link rel="canonical" href="https://zatokacydrowa.pl/kontakt.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230F2537'/%3E%3Ctext x='50' y='70' font-size='58' font-family='Georgia,serif' fill='%23ffffff' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__row">
+    <a href="index.html" class="logo">Zatoka <span>Cydrowa</span></a>
+    <nav class="nav-links" aria-label="Menu główne">
+      <a href="index.html#apartamenty">Apartamenty</a>
+      <a href="index.html#apartamenty-letnie">Apartamenty letnie</a>
+      <a href="index.html#wellness">Wellness</a>
+      <a href="index.html#dla-dzieci">Dla dzieci</a>
+      <a href="index.html#okolica">Okolica</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <div class="header-actions">
+      <a class="phone-link" href="tel:+48797315001">📞 797 315 001</a>
+      <a class="btn btn-primary" href="tel:+48797315001">Zadzwoń</a>
+      <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <nav class="mobile-menu" aria-label="Menu mobilne">
+    <a href="index.html#apartamenty">Apartamenty</a>
+    <a href="index.html#apartamenty-letnie">Apartamenty letnie</a>
+    <a href="index.html#wellness">Wellness</a>
+    <a href="index.html#dla-dzieci">Dla dzieci</a>
+    <a href="index.html#okolica">Okolica</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="apt-top">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Strona główna</a> / Kontakt</p>
+      <h1>Skontaktuj się z nami</h1>
+      <p>Zadzwoń, napisz lub wypełnij formularz — odpowiadamy zwykle w kilkanaście minut, codziennie w godzinach 8:00–20:00.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:1.6rem;">
+    <div class="container contact-layout">
+
+      <div class="contact-form">
+        <h2 style="margin-top:0;">Formularz kontaktowy</h2>
+        <p style="color:var(--color-text-muted); margin-top:-0.6rem;">Wypełnij formularz — wiadomość trafi bezpośrednio na naszą skrzynkę e-mail.</p>
+
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Klucz Web3Forms: zarejestruj darmowe konto na web3forms.com i wklej swój Access Key poniżej -->
+          <input type="hidden" name="access_key" value="WSTAW_TUTAJ_SWOJ_ACCESS_KEY_Z_WEB3FORMS">
+          <input type="hidden" name="subject" value="Nowe zapytanie ze strony Zatoka Cydrowa">
+          <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-grid-2">
+            <div class="form-row">
+              <label for="name">Imię i nazwisko *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-row">
+              <label for="apartment">Który apartament Cię interesuje?</label>
+              <select id="apartment" name="apartament">
+                <option value="Nie wiem jeszcze">Nie wiem jeszcze</option>
+                <option value="Apartament 1 (8-osobowy)">Apartament 1 (8-osobowy)</option>
+                <option value="Apartament 2 (5-osobowy)">Apartament 2 (5-osobowy)</option>
+                <option value="Apartament 3 (7-osobowy)">Apartament 3 (7-osobowy)</option>
+                <option value="Apartament 4 (4-osobowy)">Apartament 4 (4-osobowy)</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="dates">Preferowany termin</label>
+              <input type="text" id="dates" name="termin" placeholder="np. 12–19 lipca 2026">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Wiadomość *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Liczba osób, termin pobytu, dodatkowe pytania..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Wyślij wiadomość</button>
+          <p id="form-status" class="form-status"></p>
+          <p class="form-note">Wysyłając formularz akceptujesz przetwarzanie danych w celu obsługi zapytania — zobacz <a href="polityka-prywatnosci.html">politykę prywatności</a>.</p>
+        </form>
+      </div>
+
+      <div>
+        <div class="contact-card">
+          <h3>Dane kontaktowe</h3>
+          <div class="contact-row"><span>📞</span><a href="tel:+48797315001">797 315 001</a></div>
+          <div class="contact-row"><span>📧</span><a href="mailto:kontakt@zatokacydrowa.pl">kontakt@zatokacydrowa.pl</a></div>
+          <div class="contact-row"><span>📍</span><span>ul. Grunwaldzka 12<br>82-103 Stegna</span></div>
+          <div class="contact-row"><span>📘</span><a href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener">facebook.com/ZatokaCydrowa</a></div>
+          <div class="booking-stack" style="margin-top:1.4rem;">
+            <a class="btn btn-whatsapp" href="https://wa.me/48797315001?text=Dzie%C5%84%20dobry%2C%20mam%20pytanie%20o%20pobyt%20w%20Zatoce%20Cydrowej." target="_blank" rel="noopener">💬 Napisz na WhatsApp</a>
+            <a class="btn btn-ghost" style="background:#fff;" href="sms:+48797315001">✉ Wyślij SMS</a>
+          </div>
+        </div>
+
+        <div class="info-widget" style="margin-top:1.2rem;">
+          <div class="info-widget__row">
+            <strong>🌊 Mierzeja Wiślana</strong>
+            <span>1500 m do morza</span>
+          </div>
+          <p>Zatoka Cydrowa mieści się przy ul. Grunwaldzkiej 12 w Stegnie — blisko piaszczystej plaży i leśnych ścieżek spacerowych.</p>
+        </div>
+
+        <div class="location-map" style="margin-top:1.2rem;">
+          <iframe src="https://www.google.com/maps?q=Grunwaldzka%2012%2C%2082-103%20Stegna&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa dojazdu — Zatoka Cydrowa, ul. Grunwaldzka 12, Stegna"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo" style="color:#fff;">Zatoka <span>Cydrowa</span></a>
+      <p style="margin-top:0.8rem; max-width:32ch;">Apartamenty i domki w Stegnie, 1500 m od plaży Bałtyku, w otoczeniu sosnowego lasu.</p>
+    </div>
+    <div>
+      <h4>Apartamenty</h4>
+      <a href="apartamenty/apartament-1.html">Apartament 1</a>
+      <a href="apartamenty/apartament-2.html">Apartament 2</a>
+      <a href="apartamenty/apartament-3.html">Apartament 3</a>
+      <a href="apartamenty/apartament-4.html">Apartament 4</a>
+    </div>
+    <div>
+      <h4>Obiekt</h4>
+      <a href="index.html#wellness">Wellness</a>
+      <a href="dla-dzieci.html">Dla dzieci</a>
+      <a href="index.html#okolica">Okolica</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <a href="tel:+48797315001">797 315 001</a>
+      <a href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener">Facebook</a>
+      <p style="margin-top:0.6rem;">ul. Grunwaldzka 12<br>82-103 Stegna</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Zatoka Cydrowa</span>
+    <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+  </div>
+</footer>
+
+<div class="mobile-call-bar">
+  <a href="tel:+48797315001">📞 Zadzwoń: 797 315 001</a>
+</div>
+
+<script src="js/main.js"></script>
+<script>
+  var contactForm = document.getElementById('contact-form');
+  var statusEl = document.getElementById('form-status');
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var accessKey = contactForm.access_key.value;
+    if (!accessKey || accessKey.indexOf('WSTAW_TUTAJ') === 0) {
+      statusEl.textContent = 'Formularz nie jest jeszcze skonfigurowany — zadzwoń: 797 315 001 lub napisz na kontakt@zatokacydrowa.pl.';
+      statusEl.className = 'form-status is-error';
+      return;
+    }
+    var submitBtn = contactForm.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Wysyłanie...';
+    fetch(contactForm.action, {
+      method: 'POST',
+      body: new FormData(contactForm),
+      headers: { 'Accept': 'application/json' }
+    }).then(function (res) { return res.json(); }).then(function (data) {
+      if (data.success) {
+        statusEl.textContent = 'Dziękujemy! Wiadomość została wysłana — odezwiemy się wkrótce.';
+        statusEl.className = 'form-status is-success';
+        contactForm.reset();
+      } else {
+        statusEl.textContent = 'Coś poszło nie tak. Zadzwoń: 797 315 001 lub napisz na kontakt@zatokacydrowa.pl.';
+        statusEl.className = 'form-status is-error';
+      }
+    }).catch(function () {
+      statusEl.textContent = 'Coś poszło nie tak. Zadzwoń: 797 315 001 lub napisz na kontakt@zatokacydrowa.pl.';
+      statusEl.className = 'form-status is-error';
+    }).finally(function () {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Wyślij wiadomość';
+    });
+  });
+</script>
+</body>
+</html>

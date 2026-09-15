@@ -1,0 +1,32 @@
+# =========================================================
+# Zatoka Cydrowa — przekierowania 301 ze starych adresów WordPress
+# na nową strukturę statycznej strony.
+#
+# WAŻNE: ten plik ma trafić do katalogu GŁÓWNEGO domeny
+# (public_html/) DOPIERO w momencie przełączenia domeny głównej
+# zatokacydrowa.pl na nową wersję statyczną. Dopóki testujecie
+# na nowa.zatokacydrowa.pl, NIE wgrywajcie tego pliku tam, bo
+# subdomena nie ma tych starych adresów WordPress do przekierowania.
+# =========================================================
+
+RewriteEngine On
+
+# Stare adresy apartamentów (WordPress) -> nowe strony apartamentów
+Redirect 301 /osmioosobowy/ /apartamenty/apartament-1.html
+Redirect 301 /osmioosobowy /apartamenty/apartament-1.html
+Redirect 301 /piecioosobowy/ /apartamenty/apartament-2.html
+Redirect 301 /piecioosobowy /apartamenty/apartament-2.html
+Redirect 301 /siedmioosobowy/ /apartamenty/apartament-3.html
+Redirect 301 /siedmioosobowy /apartamenty/apartament-3.html
+Redirect 301 /czteroosobowy/ /apartamenty/apartament-4.html
+Redirect 301 /czteroosobowy /apartamenty/apartament-4.html
+
+# Kontakt
+Redirect 301 /kontakt/ /kontakt.html
+Redirect 301 /kontakt /kontakt.html
+
+# Strona główna WordPress (jeśli była pod /home/ lub podobnym) -> nowa strona główna
+# Redirect 301 /home/ /index.html
+
+# Wymuszenie HTTPS i www/bez-www zgodnie z dotychczasową konfiguracją Hostingera
+# (te reguły mogą już istnieć w istniejącym .htaccess Hostingera — nie duplikować)
