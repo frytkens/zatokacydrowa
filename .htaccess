@@ -2,6 +2,10 @@
 # Zatoka Cydrowa — przekierowania 301 ze starych adresów WordPress
 # na nową strukturę statycznej strony.
 #
+# Adresy poniżej zostały zweryfikowane bezpośrednio na żywym WordPressie
+# (plik llms.txt na zatokacydrowa.pl) — to realne, zaindeksowane URL-e,
+# nie zgadywane.
+#
 # WAŻNE: ten plik ma trafić do katalogu GŁÓWNEGO domeny
 # (public_html/) DOPIERO w momencie przełączenia domeny głównej
 # zatokacydrowa.pl na nową wersję statyczną. Dopóki testujecie
@@ -11,22 +15,52 @@
 
 RewriteEngine On
 
-# Stare adresy apartamentów (WordPress) -> nowe strony apartamentów
+# --- Apartamenty całoroczne ---
 Redirect 301 /osmioosobowy/ /apartamenty/apartament-1.html
-Redirect 301 /osmioosobowy /apartamenty/apartament-1.html
 Redirect 301 /piecioosobowy/ /apartamenty/apartament-2.html
-Redirect 301 /piecioosobowy /apartamenty/apartament-2.html
 Redirect 301 /siedmioosobowy/ /apartamenty/apartament-3.html
-Redirect 301 /siedmioosobowy /apartamenty/apartament-3.html
 Redirect 301 /czteroosobowy/ /apartamenty/apartament-4.html
-Redirect 301 /czteroosobowy /apartamenty/apartament-4.html
 
-# Kontakt
+# --- Apartamenty letnie ---
+Redirect 301 /apartamenty-letnie/ /index.html#apartamenty-letnie
+Redirect 301 /apa_letni_dwupokojowy/ /apartamenty-letnie/apartament-letni-1.html
+Redirect 301 /apa_letni_dwuosobowy/ /apartamenty-letnie/apartament-letni-2.html
+Redirect 301 /apa_czarno_bialy/ /apartamenty-letnie/apartament-letni-3.html
+Redirect 301 /apa_letni_czteroosobowy/ /apartamenty-letnie/apartament-letni-4.html
+
+# --- Mieszkania letnie ---
+Redirect 301 /mieszkania_letnie/ /mieszkania-letnie.html
+
+# --- Pokoje (ogólny przegląd) ---
+Redirect 301 /pokoje/ /index.html#apartamenty
+
+# --- Dzieci / atrakcje na miejscu ---
+Redirect 301 /sala-zabaw/ /dla-dzieci.html
+Redirect 301 /zatoczka-cydrowa/ /dla-dzieci.html
+Redirect 301 /atrakcje-w-zatoce-cydrowej/ /index.html#wellness
+Redirect 301 /komora-hiperbaryczna-w-zatoce-cydrowej/ /index.html#wellness
+Redirect 301 /solarium-w-zatoce-cydrowej/ /index.html#wellness
+Redirect 301 /sauna/ /index.html#wellness
+
+# --- Okolica / atrakcje w okolicy ---
+Redirect 301 /atrakcje-okolice/ /index.html#okolica
+
+# --- Kontakt / rezerwacje / polityka ---
 Redirect 301 /kontakt/ /kontakt.html
-Redirect 301 /kontakt /kontakt.html
+Redirect 301 /rezerwacje/ /kontakt.html
+Redirect 301 /polityka-prywatnosci/ /polityka-prywatnosci.html
 
-# Strona główna WordPress (jeśli była pod /home/ lub podobnym) -> nowa strona główna
-# Redirect 301 /home/ /index.html
+# --- Wpisy blogowe o okolicy (Stegna, Mierzeja Wiślana) ---
+# Nowa strona nie ma bloga — przekierowanie do sekcji okolicy zamiast 404.
+Redirect 301 /polomarket-stegna/ /index.html#okolica
+Redirect 301 /dino-stegna/ /index.html#okolica
+Redirect 301 /kosciol-najswietszego-serca-pana-jezusa-w-stegnie/ /index.html#okolica
+Redirect 301 /muzeum-stutthof/ /index.html#okolica
+Redirect 301 /zimowe-morsowanie/ /index.html#okolica
+Redirect 301 /szlak-rowerowy/ /index.html#okolica
+Redirect 301 /bursztynowa-komnata/ /index.html#okolica
+Redirect 301 /bon-turystyczny/ /index.html#okolica
+Redirect 301 /podziel-sie/ /index.html
 
 # Wymuszenie HTTPS i www/bez-www zgodnie z dotychczasową konfiguracją Hostingera
 # (te reguły mogą już istnieć w istniejącym .htaccess Hostingera — nie duplikować)
