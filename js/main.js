@@ -35,6 +35,23 @@ document.addEventListener('DOMContentLoaded', function () {
     revealEls.forEach(function (el) { el.classList.add('is-visible'); });
   }
 
+  // Floating mobile contact button
+  var fab = document.getElementById('mobile-fab');
+  if (fab) {
+    var fabBtn = fab.querySelector('.mobile-fab__button');
+    fabBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var isOpen = fab.classList.toggle('is-open');
+      fabBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    document.addEventListener('click', function (e) {
+      if (!fab.contains(e.target)) {
+        fab.classList.remove('is-open');
+        fabBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
   // Footer year
   var yearEl = document.getElementById('year');
   if (yearEl) { yearEl.textContent = new Date().getFullYear(); }

@@ -520,26 +520,69 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
 }
 
-/* Sticky mobile call bar */
-.mobile-call-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 60;
-  background: var(--color-primary);
-  padding: 0.8rem var(--gutter);
-  box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
-}
-.mobile-call-bar a {
+/* Floating mobile contact button */
+.mobile-fab { position: fixed; bottom: 1.2rem; right: 1.2rem; z-index: 60; }
+.mobile-fab__button {
+  position: relative;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  color: #fff;
-  font-weight: 700;
+  box-shadow: var(--shadow-2);
+  cursor: pointer;
+  padding: 0;
 }
-@media (min-width: 900px) { .mobile-call-bar { display: none; } }
+.mobile-fab__button .icon { width: 1.4em; height: 1.4em; position: relative; z-index: 1; }
+.mobile-fab__button .icon-close { display: none; }
+.mobile-fab.is-open .mobile-fab__button .icon-phone { display: none; }
+.mobile-fab.is-open .mobile-fab__button .icon-close { display: inline-block; }
+.mobile-fab__button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0.55;
+  animation: fab-pulse 2.2s ease-out infinite;
+}
+.mobile-fab.is-open .mobile-fab__button::before { animation: none; opacity: 0; }
+@keyframes fab-pulse {
+  0% { transform: scale(1); opacity: 0.55; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+.mobile-fab__panel {
+  position: absolute;
+  bottom: calc(100% + 0.8rem);
+  right: 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-2);
+  padding: 0.6rem;
+  display: none;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 15.5rem;
+}
+.mobile-fab.is-open .mobile-fab__panel { display: flex; }
+.mobile-fab__panel a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
+.mobile-fab__panel a:hover { background: var(--color-bg-alt); }
+.mobile-fab__panel a .icon { color: var(--color-accent); flex-shrink: 0; }
+@media (min-width: 900px) { .mobile-fab { display: none; } }
 
 /* Reveal on scroll */
 .reveal {
