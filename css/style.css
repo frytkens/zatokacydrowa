@@ -167,6 +167,19 @@ img { max-width: 100%; display: block; }
 .nav-links a:hover { color: var(--color-accent); }
 
 .header-actions { display: flex; align-items: center; gap: 0.75rem; }
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.lang-switch:hover { border-color: var(--color-accent); color: var(--color-accent); }
 .phone-link {
   display: none;
   align-items: center;

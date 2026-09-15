@@ -1,81 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zatokacydrowa.pl/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://zatokacydrowa.pl/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://zatokacydrowa.pl/apartamenty/apartament-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-1.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/apartamenty/apartament-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-1.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/apartamenty/apartament-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-2.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/apartamenty/apartament-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-2.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/apartamenty/apartament-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-3.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/apartamenty/apartament-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-3.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/apartamenty/apartament-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-4.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html</loc>
+    <loc>https://zatokacydrowa.pl/en/apartamenty/apartament-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty/apartament-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty/apartament-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty/apartament-4.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-1.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-2.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-2.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-3.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-3.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-4.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://zatokacydrowa.pl/mieszkania-letnie.html</loc>
+    <loc>https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/apartamenty-letnie/apartament-letni-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-4.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/mieszkania-letnie.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/mieszkania-letnie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/mieszkania-letnie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/mieszkania-letnie.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/mieszkania-letnie.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/mieszkania-letnie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/mieszkania-letnie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/mieszkania-letnie.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://zatokacydrowa.pl/dla-dzieci.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/dla-dzieci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/dla-dzieci.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/dla-dzieci.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://zatokacydrowa.pl/en/dla-dzieci.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/dla-dzieci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/dla-dzieci.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/dla-dzieci.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://zatokacydrowa.pl/kontakt.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/kontakt.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://zatokacydrowa.pl/en/kontakt.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/kontakt.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://zatokacydrowa.pl/polityka-prywatnosci.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/polityka-prywatnosci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/polityka-prywatnosci.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/polityka-prywatnosci.html"/>
     <lastmod>2026-09-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/polityka-prywatnosci.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/polityka-prywatnosci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/polityka-prywatnosci.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/polityka-prywatnosci.html"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
   </url>
 </urlset>

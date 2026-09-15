@@ -2,6 +2,10 @@
 
 > Apartamenty i pokoje wakacyjne w Stegnie (Żuławy Wiślane / Mierzeja Wiślana), 1500 m od piaszczystej plaży Bałtyku, w otoczeniu sosnowego lasu. Obiekt czynny cały rok, z własną strefą wellness.
 
+Wersja angielska: każda strona ma odpowiednik pod tym samym adresem z prefiksem `/en/`, np. https://zatokacydrowa.pl/en/ (strona główna) lub https://zatokacydrowa.pl/en/apartamenty/apartament-1.html.
+
+English version: every page has an English counterpart at the same path prefixed with `/en/`, e.g. https://zatokacydrowa.pl/en/ (homepage) or https://zatokacydrowa.pl/en/apartamenty/apartament-1.html.
+
 Dane kontaktowe:
 - Adres: ul. Grunwaldzka 12, 82-103 Stegna, Polska
 - Telefon / rezerwacje: +48 797 315 001
