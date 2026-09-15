@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="gallery/hero/domek-taras.webp" fetchpriority="high">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -138,7 +139,7 @@
     <div class="container hero__grid">
       <span class="eyebrow"><svg class="icon"><use href="icons.svg#icon-pin"></use></svg> Stegna · Sosnowy las</span>
       <h1>Twój spokojny kawałek Bałtyku</h1>
-      <p style="font-size:1.1rem; max-width:46ch;">Apartamenty w Stegnie, wśród sosnowego lasu. 1500 m od plaży.</p>
+      <p class="text-lg measure-md">Apartamenty w Stegnie, wśród sosnowego lasu. 1500 m od plaży.</p>
       <div class="hero__actions">
         <a class="btn btn-accent" href="#apartamenty">Sprawdź apartamenty</a>
         <a class="btn btn-glass" href="tel:+48797315001"><svg class="icon"><use href="icons.svg#icon-phone"></use></svg> Zadzwoń i zapytaj o termin</a>
@@ -155,10 +156,10 @@
   </section>
 
   <!-- INTRO / ODDECH PO HERO -->
-  <section class="section" style="padding-bottom:0.5rem;">
-    <div class="container" style="max-width:46rem; text-align:center;">
-      <h2 class="reveal" style="margin-bottom:0.9rem;">Wypoczynek, który zaczyna się już po przekroczeniu bramy</h2>
-      <p class="reveal" style="font-size:1.08rem; max-width:44ch; margin:0 auto;">Zatoka Cydrowa to spokojne miejsce wśród sosnowego lasu, stworzone z myślą o rodzinnym wypoczynku nad Bałtykiem. Plaża, natura, własny taras i przestrzeń, w której można naprawdę zwolnić.</p>
+  <section class="section pb-sm">
+    <div class="container measure-md center mx-auto">
+      <h2 class="reveal mb-3">Wypoczynek, który zaczyna się już po przekroczeniu bramy</h2>
+      <p class="reveal text-md measure-sm mx-auto">Zatoka Cydrowa to spokojne miejsce wśród sosnowego lasu, stworzone z myślą o rodzinnym wypoczynku nad Bałtykiem. Plaża, natura, własny taras i przestrzeń, w której można naprawdę zwolnić.</p>
     </div>
   </section>
 
@@ -332,7 +333,7 @@
   <section id="wellness" class="section band-dark">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow" style="color:var(--color-accent-light)">Regeneracja przez cały rok</span>
+        <span class="eyebrow accent-light">Regeneracja przez cały rok</span>
         <h2>Strefa wellness na miejscu</h2>
         <p>Komora hiperbaryczna, sauna i solarium — dostępne także poza sezonem letnim.</p>
       </div>
@@ -439,7 +440,7 @@
   <!-- OPINIE -->
   <section id="opinie" class="section section--alt">
     <div class="container">
-      <div class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+      <div class="section-head reveal center mx-auto">
         <span class="eyebrow">Zaufanie gości</span>
         <h2>Goście mówią najlepiej</h2>
         <p>Prawdziwe opinie naszych gości z Facebooka.</p>
@@ -458,10 +459,10 @@
         <div class="testimonial-card reveal">
           <div class="testimonial-card__stars">★★★★★</div>
           <p>„Jeśli szukacie idealnego miejsca na odpoczynek nad morzem, to Zatoka Cydrowa jest strzałem w dziesiątkę. Gwarancja relaksu na najwyższym poziomie. Pokoje lśnią czystością, są urządzone ze smakiem i bardzo przytulne. Właściciele i Gospodarze to niezwykle ciepli, pomocni i mega pozytywnie zakręceni ludzie, którzy dbają o każdy szczegół i sprawiają, że człowiek czuje się jak w domu. Rewelacyjne miejsce, do którego jeszcze nie raz wrócimy.”</p>
-          <div class="testimonial-card__author">Oskar Zaloga <span style="font-weight:400; color:var(--color-text-muted);">— Lokalny przewodnik Google</span></div>
+          <div class="testimonial-card__author">Oskar Zaloga <span class="testimonial-card__author-role">— Lokalny przewodnik Google</span></div>
         </div>
       </div>
-      <div style="text-align:center; margin-top:1.6rem;">
+      <div class="center mt-5">
         <a class="btn btn-outline" href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener">Zobacz więcej opinii na Facebooku →</a>
       </div>
     </div>
@@ -469,12 +470,12 @@
 
   <!-- FAQ -->
   <section id="faq" class="section">
-    <div class="container" style="max-width:52rem;">
+    <div class="container measure-lg">
       <div class="section-head reveal">
         <span class="eyebrow">Najczęstsze pytania</span>
         <h2>Pytania i odpowiedzi</h2>
       </div>
-      <div class="reveal" style="display:grid; gap:0.75rem;">
+      <div class="reveal faq-list">
         <details>
           <summary>Jak daleko jest do plaży od Zatoki Cydrowej?</summary>
           <p>Ok. 1500 m pieszo od piaszczystej plaży w Stegnie.</p>
@@ -506,7 +507,7 @@
       <p>Sprawdźcie dostępność telefonicznie — odpowiemy na wszystkie pytania o apartamenty i termin przyjazdu.</p>
       <div class="cta-band__actions">
         <a class="btn btn-accent" href="tel:+48797315001"><svg class="icon"><use href="icons.svg#icon-phone"></use></svg> 797 315 001</a>
-        <a class="btn btn-outline" style="border-color:rgba(255,255,255,0.4); color:#fff;" href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn btn-outline btn-outline-light" href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener">Facebook</a>
       </div>
     </div>
   </section>
@@ -516,8 +517,8 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <a href="index.html" class="logo" style="color:#fff;">Zatoka <span>Cydrowa</span></a>
-      <p style="margin-top:0.8rem; max-width:32ch;">Apartamenty i domki w Stegnie, 1500 m od plaży Bałtyku, w otoczeniu sosnowego lasu.</p>
+      <a href="index.html" class="logo text-white">Zatoka <span>Cydrowa</span></a>
+      <p class="footer-tagline">Apartamenty i domki w Stegnie, 1500 m od plaży Bałtyku, w otoczeniu sosnowego lasu.</p>
     </div>
     <div>
       <h4>Apartamenty i pokoje</h4>
@@ -543,7 +544,7 @@
       <a href="tel:+48797315001">797 315 001</a>
       <a href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener">Facebook</a>
       <a href="kontakt.html">Kontakt</a>
-      <p style="margin-top:0.6rem;">ul. Grunwaldzka 12<br>82-103 Stegna</p>
+      <p class="footer-address">ul. Grunwaldzka 12<br>82-103 Stegna</p>
     </div>
   </div>
   <div class="container footer-bottom">
