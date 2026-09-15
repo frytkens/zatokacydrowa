@@ -464,14 +464,17 @@ img { max-width: 100%; display: block; }
 .wellness-card__details summary::-webkit-details-marker { display: none; }
 .wellness-card__details summary::after { content: " →"; }
 .wellness-card__details[open] summary::after { content: " ↑"; }
+.wellness-card__details a { display: block; margin: 0.8rem 0; cursor: zoom-in; }
 .wellness-card__details img {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: var(--radius-lg);
-  margin: 0.8rem 0;
+  margin: 0;
   display: block;
+  transition: transform 0.3s ease;
 }
+.wellness-card__details a:hover img { transform: scale(1.03); }
 .wellness-card .btn { margin-top: auto; align-self: flex-start; }
 
 /* Kids section */

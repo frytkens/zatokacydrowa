@@ -65,14 +65,17 @@ document.addEventListener('DOMContentLoaded', function () {
     var imgEl = document.getElementById('lightbox-img');
     var counterEl = document.getElementById('lightbox-counter');
 
+    var titleEl = document.getElementById('lightbox-title');
     function updateLightbox() {
       if (!images.length || !imgEl) return;
       imgEl.classList.remove('is-zoomed');
       imgEl.src = images[currentIndex];
       if (counterEl) { counterEl.textContent = 'Zdjęcie ' + (currentIndex + 1) + ' / ' + images.length; }
     }
-    window.openLightbox = function (e, i) {
+    window.openLightbox = function (e, i, gallery, title) {
       if (e) { e.preventDefault(); }
+      if (gallery) { images = gallery; }
+      if (title && titleEl) { titleEl.textContent = title; }
       currentIndex = i;
       updateLightbox();
       lightbox.classList.add('is-open');

@@ -593,6 +593,7 @@ DICT = [
     ("Zdjęcie 1 / 3", "Photo 1 / 3"),
     ("Zdjęcie 1 / 2", "Photo 1 / 2"),
     ("Zdjęcie 1 / 18", "Photo 1 / 18"),
+    ("Zdjęcie 1 / 1", "Photo 1 / 1"),
 ]
 DICT.sort(key=lambda p: -len(p[0]))
 
@@ -649,12 +650,14 @@ def add_asset_prefix(html: str) -> str:
     html = html.replace('href="../icons.svg', f'href="{PH}icons.svg')
     html = html.replace('src="../gallery/', f'src="{PH}gallery/')
     html = html.replace('"../gallery/', f'"{PH}gallery/')
+    html = html.replace("'../gallery/", f"'{PH}gallery/")
     html = html.replace('src="../js/main.js"', f'src="{PH}js/main.js"')
     # Then: add one level to the still-plain (top-level-page) references.
     html = re.sub(r'href="css/style\.css"', 'href="../css/style.css"', html)
     html = re.sub(r'href="icons\.svg', 'href="../icons.svg', html)
     html = re.sub(r'src="gallery/', 'src="../gallery/', html)
     html = re.sub(r'"gallery/', '"../gallery/', html)
+    html = re.sub(r"'gallery/", "'../gallery/", html)
     html = re.sub(r'src="js/main\.js"', 'src="../js/main.js"', html)
     # Finally: resolve placeholders to the doubled-up path.
     html = html.replace(PH, "../../")
