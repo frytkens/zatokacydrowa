@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
     toggle.addEventListener('click', function () {
       var isOpen = menu.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      toggle.textContent = isOpen ? '\u2715' : '\u2630';
+      toggle.classList.toggle('is-open', isOpen);
     });
     menu.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
         menu.classList.remove('is-open');
-        toggle.textContent = '\u2630';
+        toggle.classList.remove('is-open');
         toggle.setAttribute('aria-expanded', 'false');
       });
     });
