@@ -824,6 +824,31 @@ img { max-width: 100%; display: block; }
 @media (min-width: 700px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); } }
 .gallery-grid img { border-radius: var(--radius-md); aspect-ratio: 4/3; object-fit: cover; }
 
+/* Curated mosaic — one large photo + a grid of smaller ones, instead of
+   a uniform wall of same-size crops. Pairs with a "see all" button that
+   opens the full lightbox (which still carries every photo). */
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 130px;
+  gap: 0.6rem;
+}
+@media (min-width: 640px) {
+  .mosaic { grid-template-columns: repeat(4, 1fr); grid-auto-rows: 150px; }
+}
+.mosaic a:first-child { grid-column: span 2; grid-row: span 2; }
+.mosaic a { display: block; overflow: hidden; border-radius: var(--radius-lg); }
+.mosaic img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
+.mosaic a:hover img { transform: scale(1.05); }
+.mosaic__more {
+  position: static;
+  display: flex;
+  margin: 1.2rem auto 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-1);
+}
+
 /* Contact form */
 .contact-layout { display: grid; grid-template-columns: 1fr; gap: 2rem; }
 @media (min-width: 900px) { .contact-layout { grid-template-columns: 1.1fr 0.9fr; } }
