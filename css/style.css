@@ -24,10 +24,10 @@
   --font-body: "Plus Jakarta Sans", "Segoe UI", sans-serif;
 
   /* Radius */
-  --radius-sm: 0.5rem;
-  --radius-md: 0.75rem;
-  --radius-lg: 1rem;
-  --radius-xl: 1.5rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.35rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.65rem;
   --radius-full: 9999px;
 
   /* Shadow */
