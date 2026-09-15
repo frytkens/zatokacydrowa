@@ -263,6 +263,23 @@ img { max-width: 100%; display: block; }
 .fact-card span { font-size: 0.85rem; color: var(--color-text-muted); }
 .fact-card { font-size: 1.4rem; line-height: 1; }
 .fact-card strong { margin-top: 0.5rem; }
+.fact-card--link { display: flex; flex-direction: column; }
+.fact-card__link { margin-top: 0.7rem; font-size: 0.82rem; font-weight: 700; color: var(--color-accent); }
+.fact-card__link:hover { color: var(--color-primary); }
+
+/* Testimonials */
+.testimonial-grid { display: grid; gap: 1.4rem; grid-template-columns: 1fr; }
+@media (min-width: 860px) { .testimonial-grid { grid-template-columns: repeat(3, 1fr); } }
+.testimonial-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-1);
+}
+.testimonial-card__stars { color: var(--color-gold); letter-spacing: 0.1em; margin-bottom: 0.7rem; }
+.testimonial-card p { font-style: italic; color: var(--color-text); }
+.testimonial-card__author { font-size: 0.85rem; font-weight: 700; color: var(--color-primary); margin-top: 0.8rem; }
 
 /* Cards grid */
 .card-grid {
