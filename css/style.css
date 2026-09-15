@@ -223,17 +223,16 @@ img { max-width: 100%; display: block; }
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../gallery/hero/zachod-slonca-plaza.webp');
+  background-image: url('../gallery/hero/domek-taras.webp');
   background-size: cover;
-  background-position: center 40%;
+  background-position: center 62%;
+  filter: brightness(1.08) saturate(1.03);
 }
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-image:
-    linear-gradient(90deg, rgba(15,37,55,0.93) 0%, rgba(15,37,55,0.78) 40%, rgba(15,37,55,0.4) 75%, rgba(15,37,55,0.6) 100%),
-    linear-gradient(to top, rgba(15,37,55,0.88) 0%, rgba(15,37,55,0.25) 38%, rgba(15,37,55,0) 62%);
+  background-image: linear-gradient(90deg, rgba(15,37,55,0.82) 0%, rgba(15,37,55,0.6) 42%, rgba(15,37,55,0.22) 78%, rgba(15,37,55,0.38) 100%);
 }
 .hero__glow {
   position: absolute;
@@ -265,7 +264,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero h1 { color: #fff; }
+.hero h1 { color: #fff; font-size: clamp(1.85rem, 4.1vw, 2.95rem); }
 .btn-glass { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.4); color: #fff; backdrop-filter: blur(6px); }
 .btn-glass:hover { background: rgba(255,255,255,0.2); }
 
@@ -289,12 +288,14 @@ img { max-width: 100%; display: block; }
   width: 2.6rem;
   height: 2.6rem;
   border-radius: var(--radius-md);
-  background: rgba(2, 132, 199, 0.1);
+  background: rgba(2, 132, 199, 0.14);
+  color: var(--color-accent);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
 }
+.hero-fact__icon .icon { stroke-width: 2.1; }
 .hero-fact strong { display: block; font-family: var(--font-body); font-weight: 700; font-size: 0.95rem; color: var(--color-primary); }
 .hero-fact span { font-size: 0.82rem; color: var(--color-text-muted); }
 
