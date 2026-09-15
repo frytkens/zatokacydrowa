@@ -453,18 +453,7 @@ img { max-width: 100%; display: block; }
 .wellness-card__list li { font-size: 0.86rem; color: rgba(255,255,255,0.75); padding-left: 1.3rem; position: relative; }
 .wellness-card__list li::before { content: "✓"; position: absolute; left: 0; color: var(--color-accent-light); font-weight: 700; }
 
-.wellness-card__details { margin-top: -0.4rem; }
-.wellness-card__details summary {
-  cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--color-accent-light);
-  list-style: none;
-}
-.wellness-card__details summary::-webkit-details-marker { display: none; }
-.wellness-card__details summary::after { content: " →"; }
-.wellness-card__details[open] summary::after { content: " ↑"; }
-.wellness-card__details a { display: block; margin: 0.8rem 0; cursor: zoom-in; }
+.wellness-card__details a { display: block; margin: 0; cursor: zoom-in; }
 .wellness-card__details img {
   width: 100%;
   aspect-ratio: 4/3;
