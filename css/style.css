@@ -223,17 +223,17 @@ img { max-width: 100%; display: block; }
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../gallery/pokoje/Dom.webp');
+  background-image: url('../gallery/hero/zachod-slonca-plaza.webp');
   background-size: cover;
-  background-position: center;
-  mix-blend-mode: overlay;
-  opacity: 0.6;
+  background-position: center 40%;
 }
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(90deg, rgba(15,37,55,0.95) 0%, rgba(15,37,55,0.8) 45%, rgba(15,37,55,0.4) 100%);
+  background-image:
+    linear-gradient(90deg, rgba(15,37,55,0.93) 0%, rgba(15,37,55,0.78) 40%, rgba(15,37,55,0.4) 75%, rgba(15,37,55,0.6) 100%),
+    linear-gradient(to top, rgba(15,37,55,0.88) 0%, rgba(15,37,55,0.25) 38%, rgba(15,37,55,0) 62%);
 }
 .hero__glow {
   position: absolute;
