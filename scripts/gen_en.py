@@ -138,6 +138,10 @@ DICT = [
     ("Apartament 3", "Apartment 3"),
     ("Apartament 4", "Apartment 4"),
     ("Zobacz szczegóły →", "See details →"),
+    ("Zobacz szczegóły", "See details"),
+    ("Strefa komory hiperbarycznej w Zatoce Cydrowej", "The hyperbaric chamber area at Zatoka Cydrowa"),
+    ("Wnętrze sauny w Zatoce Cydrowej", "Inside the sauna at Zatoka Cydrowa"),
+    ("Łóżko solaryjne w Zatoce Cydrowej", "The sunbed at Zatoka Cydrowa"),
 
     # ---- Summer apartments section ----
     ("Oferta sezonowa", "Seasonal offer"),
