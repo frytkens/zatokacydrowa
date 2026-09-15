@@ -80,18 +80,31 @@
   <!-- Gallery -->
   <section class="section pt-md">
     <div class="container">
-      <div class="mosaic" id="gallery-grid">
-        <a href="#" data-index="0" onclick="return openLightbox(event,0)"><img src="gallery/jagielly-28/01.webp" alt="Mieszkania letnie — zdjęcie 1" loading="lazy"></a>
-        <a href="#" data-index="1" onclick="return openLightbox(event,1)"><img src="gallery/jagielly-28/02.webp" alt="Mieszkania letnie — zdjęcie 2" loading="lazy"></a>
-        <a href="#" data-index="2" onclick="return openLightbox(event,2)"><img src="gallery/jagielly-28/03.webp" alt="Mieszkania letnie — zdjęcie 3" loading="lazy"></a>
-        <a href="#" data-index="3" onclick="return openLightbox(event,3)"><img src="gallery/jagielly-28/04.webp" alt="Mieszkania letnie — zdjęcie 4" loading="lazy"></a>
-        <a href="#" data-index="4" onclick="return openLightbox(event,4)"><img src="gallery/jagielly-28/05.webp" alt="Mieszkania letnie — zdjęcie 5" loading="lazy"></a>
-        <a href="#" data-index="5" onclick="return openLightbox(event,5)"><img src="gallery/jagielly-28/06.webp" alt="Mieszkania letnie — zdjęcie 6" loading="lazy"></a>
-        <a href="#" data-index="6" onclick="return openLightbox(event,6)"><img src="gallery/jagielly-28/07.webp" alt="Mieszkania letnie — zdjęcie 7" loading="lazy"></a>
-        <a href="#" data-index="7" onclick="return openLightbox(event,7)"><img src="gallery/jagielly-28/08.webp" alt="Mieszkania letnie — zdjęcie 8" loading="lazy"></a>
-        <a href="#" data-index="8" onclick="return openLightbox(event,8)"><img src="gallery/jagielly-28/09.webp" alt="Mieszkania letnie — zdjęcie 9" loading="lazy"></a>
+      <div class="bento">
+        <div class="bento__badges">
+          <span class="badge-accent">18 zdjęć</span>
+          <span class="badge-forest">Sezon letni</span>
+        </div>
+        <div class="bento__grid" id="gallery-grid">
+          <a class="bento__main" href="#" data-index="0" onclick="return openLightbox(event,0)">
+            <img src="gallery/jagielly-28/01.webp" alt="Mieszkania letnie — zdjęcie 1" loading="lazy">
+            <span class="bento__caption"><span>Pokój letni</span></span>
+          </a>
+          <a class="bento__cell" href="#" data-index="1" onclick="return openLightbox(event,1)">
+            <img src="gallery/jagielly-28/02.webp" alt="Mieszkania letnie — zdjęcie 2" loading="lazy">
+            <span class="bento__caption"><span>Łóżka</span></span>
+          </a>
+          <a class="bento__cell" href="#" data-index="2" onclick="return openLightbox(event,2)">
+            <img src="gallery/jagielly-28/03.webp" alt="Mieszkania letnie — zdjęcie 3" loading="lazy">
+            <span class="bento__caption"><span>Łazienka</span></span>
+          </a>
+          <a class="bento__cell" href="#" data-index="3" onclick="return openLightbox(event,3)">
+            <img src="gallery/jagielly-28/04.webp" alt="Mieszkania letnie — zdjęcie 4" loading="lazy">
+            <span class="bento__caption"><span>Wnętrze</span></span>
+          </a>
+        </div>
+        <button class="bento__more" onclick="return openLightbox(event,0)"><svg class="icon"><use href="icons.svg#icon-image"></use></svg> Zobacz wszystkie zdjęcia (18)</button>
       </div>
-      <button class="bento__more mosaic__more" onclick="return openLightbox(event,0)"><svg class="icon"><use href="icons.svg#icon-image"></use></svg> Zobacz wszystkie 18 zdjęć</button>
     </div>
   </section>
 
