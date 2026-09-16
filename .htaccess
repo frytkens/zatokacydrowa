@@ -22,7 +22,7 @@ Redirect 301 /siedmioosobowy/ /apartamenty/apartament-3.html
 Redirect 301 /czteroosobowy/ /apartamenty/apartament-4.html
 
 # --- Apartamenty letnie ---
-Redirect 301 /apartamenty-letnie/ /index.html#apartamenty-letnie
+RewriteRule ^apartamenty-letnie/?$ /index.html#apartamenty-letnie [R=301,L]
 Redirect 301 /apa_letni_dwupokojowy/ /apartamenty-letnie/apartament-letni-1.html
 Redirect 301 /apa_letni_dwuosobowy/ /apartamenty-letnie/apartament-letni-2.html
 Redirect 301 /apa_czarno_bialy/ /apartamenty-letnie/apartament-letni-3.html
