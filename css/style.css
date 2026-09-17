@@ -806,7 +806,6 @@ img { max-width: 100%; display: block; }
 .booking-panel p { font-size: 0.88rem; }
 .booking-stack { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1rem; }
 .booking-stack .btn { width: 100%; justify-content: center; }
-.booking-stack .btn-call { justify-content: flex-start; }
 .booking-note { background: var(--color-bg); border-radius: var(--radius-md); padding: 0.8rem 1rem; text-align: center; margin-top: 1rem; }
 .booking-note strong { display: block; font-size: 0.88rem; }
 .booking-note span { font-size: 0.75rem; color: var(--color-text-muted); }
@@ -902,9 +901,9 @@ img { max-width: 100%; display: block; }
    (WhatsApp), the rest as plain text links — avoids five equal-weight
    colored buttons stacked on top of each other. */
 .booking-stack--tiered { gap: 0.7rem; }
-.btn-call { background: var(--color-accent); color: #fff; padding: 0.95rem 1.4rem; justify-content: flex-start; gap: 0.85rem; }
+.btn-call { background: var(--color-accent); color: #fff; padding: 0.95rem 1.4rem; justify-content: center; gap: 0.85rem; }
 .btn-call:hover { background: var(--color-primary); }
-.btn-call__text { display: flex; flex-direction: column; line-height: 1.25; text-align: left; }
+.btn-call__text { display: flex; flex-direction: column; line-height: 1.25; text-align: center; }
 .btn-call__text strong { font-size: 1rem; font-weight: 700; }
 .btn-call__text small { font-size: 0.8rem; font-weight: 500; opacity: 0.85; }
 .btn-secondary-outline { background: transparent; border: 1.5px solid rgba(15, 37, 55, 0.25); color: var(--color-primary); padding: 0.7rem 1.4rem; }
