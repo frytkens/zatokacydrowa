@@ -912,10 +912,12 @@ img { max-width: 100%; display: block; }
 .btn-call__text { display: flex; flex-direction: column; line-height: 1.25; text-align: left; }
 .btn-call__text strong { font-size: 1rem; font-weight: 700; }
 .btn-call__text small { font-size: 0.8rem; font-weight: 500; opacity: 0.85; }
-.btn-whatsapp-outline { background: transparent; border: 1.5px solid #25D366; color: var(--color-primary); padding: 0.7rem 1.4rem; }
-.btn-whatsapp-outline .icon { color: #25D366; }
-.btn-whatsapp-outline:hover { background: rgba(37, 211, 102, 0.1); }
-.contact-card .btn-whatsapp-outline { color: #fff; border-color: rgba(37, 211, 102, 0.75); }
+.btn-secondary-outline { background: transparent; border: 1.5px solid rgba(15, 37, 55, 0.25); color: var(--color-primary); padding: 0.7rem 1.4rem; }
+.btn-secondary-outline .icon { color: var(--color-accent); }
+.btn-secondary-outline:hover { background: rgba(2, 132, 199, 0.08); border-color: var(--color-accent); }
+.contact-card .btn-secondary-outline { color: #fff; border-color: rgba(255, 255, 255, 0.4); }
+.contact-card .btn-secondary-outline .icon { color: var(--color-accent-light); }
+.contact-card .btn-secondary-outline:hover { background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.7); }
 .contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; font-size: 0.85rem; font-weight: 600; margin-top: 0.1rem; color: var(--color-text-muted); }
 .contact-links a { color: inherit; }
 .contact-links a:hover { color: var(--color-primary); text-decoration: underline; }
