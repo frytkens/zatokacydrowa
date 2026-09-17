@@ -924,6 +924,8 @@ img { max-width: 100%; display: block; }
 .contact-links__dot { opacity: 0.5; }
 
 /* Small, low-weight social link instead of a full-width row */
-.contact-social { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; font-size: 0.88rem; font-weight: 600; color: rgba(255, 255, 255, 0.85); }
+.contact-social { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; font-weight: 600; color: rgba(255, 255, 255, 0.85); }
 .contact-social .icon { width: 1.1em; height: 1.1em; }
 .contact-social:hover { color: #fff; }
+.contact-card__details { display: flex; flex-direction: column; gap: 0.7rem; }
+.contact-card__details .contact-row { margin: 0; }
