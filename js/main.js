@@ -50,6 +50,15 @@ document.addEventListener('DOMContentLoaded', function () {
         fabBtn.setAttribute('aria-expanded', 'false');
       }
     });
+
+    // Only show it once the visitor has scrolled past the top CTA, so it
+    // doesn't stack on top of a page that already leads with a call button.
+    var revealFabAt = 480;
+    var toggleFabVisibility = function () {
+      fab.classList.toggle('is-visible', window.scrollY > revealFabAt);
+    };
+    toggleFabVisibility();
+    window.addEventListener('scroll', toggleFabVisibility, { passive: true });
   }
 
   // Footer year

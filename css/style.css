@@ -589,7 +589,8 @@ img { max-width: 100%; display: block; }
 }
 
 /* Floating mobile contact button */
-.mobile-fab { position: fixed; bottom: 1.2rem; right: 1.2rem; z-index: 60; }
+.mobile-fab { position: fixed; bottom: 1.2rem; right: 1.2rem; z-index: 60; opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity 0.25s ease, transform 0.25s ease; }
+.mobile-fab.is-visible { opacity: 1; transform: none; pointer-events: auto; }
 .mobile-fab__button {
   position: relative;
   width: 3.4rem;
@@ -901,3 +902,28 @@ img { max-width: 100%; display: block; }
 .contact-card .contact-row a,
 .contact-card .contact-row span { color: rgba(255,255,255,0.9); }
 .contact-card .contact-row a:hover { color: var(--color-accent-light); }
+
+/* Tiered contact hierarchy: one strong CTA (call), one lighter secondary
+   (WhatsApp), the rest as plain text links — avoids five equal-weight
+   colored buttons stacked on top of each other. */
+.booking-stack--tiered { gap: 0.7rem; }
+.btn-call { background: var(--color-accent); color: #fff; padding: 0.95rem 1.4rem; justify-content: flex-start; gap: 0.85rem; }
+.btn-call:hover { background: var(--color-primary); }
+.btn-call__text { display: flex; flex-direction: column; line-height: 1.25; text-align: left; }
+.btn-call__text strong { font-size: 1rem; font-weight: 700; }
+.btn-call__text small { font-size: 0.8rem; font-weight: 500; opacity: 0.85; }
+.btn-whatsapp-outline { background: transparent; border: 1.5px solid #25D366; color: var(--color-primary); padding: 0.7rem 1.4rem; }
+.btn-whatsapp-outline .icon { color: #25D366; }
+.btn-whatsapp-outline:hover { background: rgba(37, 211, 102, 0.1); }
+.contact-card .btn-whatsapp-outline { color: #fff; border-color: rgba(37, 211, 102, 0.75); }
+.contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; font-size: 0.85rem; font-weight: 600; margin-top: 0.1rem; color: var(--color-text-muted); }
+.contact-links a { color: inherit; }
+.contact-links a:hover { color: var(--color-primary); text-decoration: underline; }
+.contact-card .contact-links { color: rgba(255, 255, 255, 0.7); }
+.contact-card .contact-links a:hover { color: #fff; }
+.contact-links__dot { opacity: 0.5; }
+
+/* Small, low-weight social link instead of a full-width row */
+.contact-social { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; font-size: 0.88rem; font-weight: 600; color: rgba(255, 255, 255, 0.85); }
+.contact-social .icon { width: 1.1em; height: 1.1em; }
+.contact-social:hover { color: #fff; }
