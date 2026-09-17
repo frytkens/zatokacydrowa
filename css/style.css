@@ -806,12 +806,7 @@ img { max-width: 100%; display: block; }
 .booking-panel p { font-size: 0.88rem; }
 .booking-stack { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1rem; }
 .booking-stack .btn { width: 100%; justify-content: center; }
-.btn-whatsapp { background: #25D366; color: #fff; }
-.btn-whatsapp:hover { background: #1ebe5d; }
-.btn-messenger { background: #1877F2; color: #fff; }
-.btn-messenger:hover { background: #0c63d4; }
-.btn-ghost { background: var(--color-bg-alt); color: var(--color-primary); }
-.btn-ghost:hover { background: var(--color-border); }
+.booking-stack .btn-call { justify-content: flex-start; }
 .booking-note { background: var(--color-bg); border-radius: var(--radius-md); padding: 0.8rem 1rem; text-align: center; margin-top: 1rem; }
 .booking-note strong { display: block; font-size: 0.88rem; }
 .booking-note span { font-size: 0.75rem; color: var(--color-text-muted); }

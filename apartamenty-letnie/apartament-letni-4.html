@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
-<link rel="stylesheet" href="../css/style.css?v=20260917c">
+<link rel="stylesheet" href="../css/style.css?v=20260917d">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -205,12 +205,16 @@
           <h3>Rezerwacja bezpośrednia u właściciela</h3>
           <p>Zadzwoń lub napisz bezpośrednio — bez marż portali pośredniczących.</p>
 
-          <div class="booking-stack">
-            <a class="btn btn-primary" href="tel:+48797315001"><svg class="icon"><use href="../icons.svg#icon-phone"></use></svg> Zadzwoń: 797 315 001</a>
-            <a class="btn btn-whatsapp" href="https://wa.me/48797315001?text=Dzie%C5%84%20dobry%2C%20chcia%C5%82bym%20zapyta%C4%87%20o%20dost%C4%99pno%C5%9B%C4%87%20Apartamentu%20letniego%204%20w%20Zatoce%20Cydrowej." target="_blank" rel="noopener"><svg class="icon"><use href="../icons.svg#icon-whatsapp"></use></svg> Napisz na WhatsApp</a>
-            <a class="btn btn-ghost" href="sms:+48797315001?body=Dzie%C5%84%20dobry%2C%20chc%C4%99%20zapyta%C4%87%20o%20rezerwacj%C4%99%20Apartamentu%20letniego%204%20w%20terminie%3A%20"><svg class="icon"><use href="../icons.svg#icon-sms"></use></svg> Wyślij szybki SMS z zapytaniem</a>
-            <a class="btn btn-messenger" href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener"><svg class="icon"><use href="../icons.svg#icon-send"></use></svg> Napisz przez Messenger / Facebook</a>
-            <a class="btn btn-ghost" href="mailto:kontakt@zatokacydrowa.pl?subject=Zapytanie%20o%20Apartament%20letni%204&amp;body=Dzie%C5%84%20dobry%2C%0A%0AProsz%C4%99%20o%20informacj%C4%99%20o%20dost%C4%99pno%C5%9Bci%20Apartamentu%20letniego%204%20w%20terminie%3A%0A%0APozdrawiam%2C"><svg class="icon"><use href="../icons.svg#icon-mail"></use></svg> kontakt@zatokacydrowa.pl</a>
+          <div class="booking-stack booking-stack--tiered">
+            <a class="btn btn-call" href="tel:+48797315001"><svg class="icon"><use href="../icons.svg#icon-phone"></use></svg> <span class="btn-call__text"><strong>Zadzwoń</strong><small>797 315 001</small></span></a>
+            <a class="btn btn-secondary-outline" href="https://www.facebook.com/ZatokaCydrowa" target="_blank" rel="noopener"><svg class="icon"><use href="../icons.svg#icon-send"></use></svg> Napisz przez Messenger</a>
+            <div class="contact-links">
+              <a href="https://wa.me/48797315001?text=Dzie%C5%84%20dobry%2C%20chcia%C5%82bym%20zapyta%C4%87%20o%20dost%C4%99pno%C5%9B%C4%87%20Apartamentu%20letniego%204%20w%20Zatoce%20Cydrowej." target="_blank" rel="noopener">WhatsApp</a>
+              <span class="contact-links__dot" aria-hidden="true">·</span>
+              <a href="sms:+48797315001?body=Dzie%C5%84%20dobry%2C%20chc%C4%99%20zapyta%C4%87%20o%20rezerwacj%C4%99%20Apartamentu%20letniego%204%20w%20terminie%3A%20">SMS</a>
+              <span class="contact-links__dot" aria-hidden="true">·</span>
+              <a href="mailto:kontakt@zatokacydrowa.pl?subject=Zapytanie%20o%20Apartament%20letni%204&amp;body=Dzie%C5%84%20dobry%2C%0A%0AProsz%C4%99%20o%20informacj%C4%99%20o%20dost%C4%99pno%C5%9Bci%20Apartamentu%20letniego%204%20w%20terminie%3A%0A%0APozdrawiam%2C">Email</a>
+            </div>
           </div>
 
           <div class="booking-note">
@@ -348,6 +352,6 @@
   </div>
 </div>
 
-<script src="../js/main.js?v=20260917c" defer></script>
+<script src="../js/main.js?v=20260917d" defer></script>
 </body>
 </html>
