@@ -105,6 +105,7 @@ DICT = [
     ("Dla dzieci", "For kids"),
     ("Mieszkania letnie", "Summer rooms"),
     ("Polityka prywatności", "Privacy Policy"),
+    ("Aktualizacja treści: wrzesień 2026", "Content last updated: September 2026"),
 
     # ---- Hero ----
     ("Stegna · Sosnowy las", "Stegna · Pine forest"),

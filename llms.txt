@@ -4,6 +4,8 @@
 
 Wersja angielska: każda strona ma odpowiednik pod tym samym adresem z prefiksem `/en/`, np. https://zatokacydrowa.pl/en/ (strona główna) lub https://zatokacydrowa.pl/en/apartamenty/apartament-1.html.
 
+Pełna wersja tego pliku (więcej faktów per strona): https://zatokacydrowa.pl/llms-full.txt
+
 English version: every page has an English counterpart at the same path prefixed with `/en/`, e.g. https://zatokacydrowa.pl/en/ (homepage) or https://zatokacydrowa.pl/en/apartamenty/apartament-1.html.
 
 Dane kontaktowe: ul. Grunwaldzka 12, 82-103 Stegna, Polska. Telefon / rezerwacje: +48 797 315 001 (również SMS/WhatsApp). E-mail: kontakt@zatokacydrowa.pl. Facebook / Messenger: https://www.facebook.com/ZatokaCydrowa.

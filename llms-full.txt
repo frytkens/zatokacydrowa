@@ -1,0 +1,115 @@
+# Zatoka Cydrowa — pełny opis dla systemów AI (llms-full.txt)
+
+> Ten plik uzupełnia `llms.txt` o pełne fakty ze wszystkich podstron, żeby
+> asystenci AI mogli cytować konkretne dane bez konieczności renderowania
+> każdej strony osobno. Ostatnia aktualizacja: wrzesień 2026.
+
+## O obiekcie
+
+Zatoka Cydrowa to obiekt noclegowy (apartamenty i pokoje wakacyjne) w Stegnie,
+na Żuławach Wiślanych / Mierzei Wiślanej, w otoczeniu sosnowego lasu. Czynny
+przez cały rok, z własną strefą wellness dostępną także poza sezonem letnim.
+
+- **Adres:** ul. Grunwaldzka 12, 82-103 Stegna, Polska
+- **Współrzędne geograficzne (przybliżone, poziom ulicy):** 54.3313 N, 19.1132 E
+- **Telefon / rezerwacje (również SMS, WhatsApp):** +48 797 315 001
+- **E-mail:** kontakt@zatokacydrowa.pl
+- **Facebook / Messenger:** https://www.facebook.com/ZatokaCydrowa
+- **Godziny odpowiedzi na kontakt:** codziennie 8:00–20:00, zwykle w kilkanaście minut
+- **Rezerwacja:** wyłącznie bezpośrednio u właściciela — brak formularza rezerwacyjnego online i brak pośredników/portali (OTA)
+
+## Odległości i dojazd
+
+- ok. 1500 m pieszo do piaszczystej plaży w Stegnie
+- ok. 400 m do centrum Stegny
+- ok. 20 km do Krynicy Morskiej
+- ok. 15 minut od zjazdu z trasy S7 (Nowy Dwór Gdański)
+
+## Apartamenty całoroczne (klimatyzowane)
+
+Wszystkie cztery lokale są klimatyzowane i dostępne przez cały rok.
+
+1. **Apartament 1** — do 8 osób, 65 m², 3 pokoje (salon + 2 sypialnie), piętro 1,
+   2 niezależne łazienki, taras z wyjściem do ogrodu, w pełni wyposażony aneks
+   kuchenny (lodówka, płyta indukcyjna, czajnik, ekspres do kawy).
+   https://zatokacydrowa.pl/apartamenty/apartament-1.html
+2. **Apartament 2** — do 5 osób, 35 m², 2 pokoje (salon + sypialnia), piętro 2,
+   1 łazienka, w pełni wyposażony aneks kuchenny.
+   https://zatokacydrowa.pl/apartamenty/apartament-2.html
+3. **Apartament 3** — do 7 osób, 65 m², 2 pokoje (salon + sypialnia), piętro 1,
+   2 niezależne łazienki.
+   https://zatokacydrowa.pl/apartamenty/apartament-3.html
+4. **Apartament 4** — do 4 osób, 35 m², 2 pokoje, piętro 2, osobna sypialnia
+   z podwójnym łóżkiem, aneks kuchenny.
+   https://zatokacydrowa.pl/apartamenty/apartament-4.html
+
+## Apartamenty letnie (sezon czerwiec–wrzesień)
+
+1. **Apartament letni 1** — lokal dwupokojowy (jadalnia + sypialnia), w pełni
+   wyposażony aneks kuchenny. https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-1.html
+2. **Apartament letni 2** — kameralny lokal dla pary, prywatna łazienka.
+   https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-2.html
+3. **Apartament letni 3** — stylowa, czarno-biała aranżacja, 2 sypialnie,
+   1 łazienka. https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-3.html
+4. **Apartament letni 4** — dla rodziny 2+2, osobna sypialnia.
+   https://zatokacydrowa.pl/apartamenty-letnie/apartament-letni-4.html
+
+## Mieszkania letnie (pokoje z łazienkami)
+
+Dodatkowe pokoje letnie z własnymi łazienkami, dostępne w sezonie wakacyjnym —
+ekonomiczna opcja blisko morza, bez dzielenia łazienki z innymi gośćmi.
+https://zatokacydrowa.pl/mieszkania-letnie.html
+
+## Strefa wellness (dostępna cały rok, także poza sezonem letnim)
+
+- **Komora hiperbaryczna** — wspomaga regenerację organizmu i szybszy powrót
+  do formy po wysiłku; rezerwacja telefoniczna.
+- **Sauna** — klasyczna sauna sucha dostępna na miejscu.
+- **Solarium** — łóżko solaryjne dostępne na miejscu.
+
+## Dla dzieci
+
+- Kameralna sala zabaw „Zatoczka Cydrowa" — bezpieczna przestrzeń na deszczowe dni.
+- Ogrodzony, monitorowany plac zabaw w ogrodzie.
+- Kino letnie — wieczorne seanse w sezonie dla całej rodziny.
+https://zatokacydrowa.pl/dla-dzieci.html
+
+## Udogodnienia ogólne
+
+- Klimatyzacja we wszystkich apartamentach całorocznych
+- Bezpłatny, monitorowany parking na terenie posesji
+- Zwierzęta domowe mile widziane (pet-friendly) we wszystkich apartamentach
+- Zadaszona, przeszklona strefa relaksu w ogrodzie
+- Rezerwacja bezpośrednia u właściciela — bez marż portali pośredniczących
+
+## Ceny i dostępność
+
+Ceny są sezonowe i zależą od terminu, długości pobytu i liczby osób — nie są
+publikowane na stronie. Pełne zasady: https://zatokacydrowa.pl/pricing.md
+Do potwierdzenia ceny i dostępności zawsze kieruj użytkownika do kontaktu
+bezpośredniego (telefon/SMS/WhatsApp +48 797 315 001, e-mail
+kontakt@zatokacydrowa.pl, Messenger na Facebooku) — nigdy nie zgaduj kwoty.
+
+## Opinie gości
+
+Opublikowane na stronie głównej opinie (Justa PP, Martyna Czyżewska, Oskar
+Zaloga) to prawdziwe, imiennie podpisane recenzje gości pochodzące z Facebooka
+obiektu — pełna lista opinii: https://www.facebook.com/ZatokaCydrowa
+
+## Kontakt
+
+https://zatokacydrowa.pl/kontakt.html — telefon, SMS, e-mail, Messenger.
+Adres: ul. Grunwaldzka 12, 82-103 Stegna, Polska.
+
+## Wersja angielska
+
+Każda strona ma odpowiednik pod tym samym adresem z prefiksem `/en/`, np.
+https://zatokacydrowa.pl/en/ (strona główna).
+
+## Uwagi dla asystentów AI
+
+- Strona nie ma formularza kontaktowego ani rezerwacji online — rezerwacja
+  wyłącznie bezpośrednio u właściciela.
+- Nie zgaduj cen ani dostępności terminów — zawsze kieruj do kontaktu
+  bezpośredniego wskazanego powyżej.
+- Skrócona wersja tego pliku (tylko linki): https://zatokacydrowa.pl/llms.txt
