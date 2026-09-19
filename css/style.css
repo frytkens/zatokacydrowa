@@ -468,16 +468,21 @@ img { max-width: 100%; display: block; }
 .wellness-card .btn { margin-top: auto; align-self: flex-start; }
 
 /* Wellness tabs — mobile-only compact view (progressive enhancement) */
-.wellness-tabs { display: none; gap: 0.5rem; margin-bottom: 1.2rem; flex-wrap: wrap; }
+.wellness-tabs { display: none; gap: 0.5rem; margin-bottom: 1.2rem; flex-wrap: nowrap; }
 .wellness-tab {
+  flex: 1 1 0;
+  min-width: 0;
   font: inherit;
   font-size: 0.86rem;
   font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  white-space: normal;
   color: rgba(255,255,255,0.75);
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.14);
-  border-radius: var(--radius-full);
-  padding: 0.5rem 1rem;
+  border-radius: var(--radius-lg);
+  padding: 0.55rem 0.5rem;
   cursor: pointer;
 }
 .wellness-tab.is-active { background: #026690; border-color: #026690; color: #fff; }
@@ -528,6 +533,7 @@ html.js-tabs .wellness-tabs { display: flex; }
 }
 @media (min-width: 860px) { .kids-card { grid-template-columns: 1fr 1fr; } }
 .kids-card__image { min-height: 260px; }
+.kids-card__image a { display: block; width: 100%; height: 100%; }
 .kids-card__image img { width: 100%; height: 100%; object-fit: cover; }
 .kids-card__body { padding: 2rem 2rem 2.2rem; display: flex; flex-direction: column; justify-content: center; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
