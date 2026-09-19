@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var computeMaxScroll = function () {
       maxScroll = document.documentElement.scrollHeight - window.innerHeight;
     };
-    computeMaxScroll();
     window.addEventListener('resize', computeMaxScroll);
     window.addEventListener('load', computeMaxScroll);
 
@@ -104,7 +103,13 @@ document.addEventListener('DOMContentLoaded', function () {
         scrollTicking = true;
       }
     }, { passive: true });
-    updateScrollUI();
+    // Defer the first geometry read + UI sync to the next frame, after the
+    // browser has settled the layout from this whole script running, so
+    // page load itself doesn't force a synchronous reflow.
+    window.requestAnimationFrame(function () {
+      computeMaxScroll();
+      updateScrollUI();
+    });
   }
   if (backToTop) {
     backToTop.addEventListener('click', function () {
