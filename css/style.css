@@ -665,6 +665,10 @@ img { max-width: 100%; display: block; }
   * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
+@media print {
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
+
 /* Utility */
 .text-center { text-align: center; }
 .mt-lg { margin-top: 2.5rem; }
