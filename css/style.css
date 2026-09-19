@@ -480,7 +480,7 @@ img { max-width: 100%; display: block; }
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
-.wellness-tab.is-active { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
+.wellness-tab.is-active { background: #026690; border-color: #026690; color: #fff; }
 html.js-tabs .wellness-tabs { display: flex; }
 @media (max-width: 859px) {
   html.js-tabs .wellness-card { display: none; }
