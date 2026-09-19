@@ -61,6 +61,52 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', toggleFabVisibility, { passive: true });
   }
 
+  // Wellness tabs (mobile-only compact view; grid layout stays untouched on desktop)
+  var wellnessTabs = document.querySelector('.wellness-tabs');
+  var wellnessCards = document.querySelectorAll('.wellness-card');
+  if (wellnessTabs && wellnessCards.length) {
+    document.documentElement.classList.add('js-tabs');
+    wellnessTabs.addEventListener('click', function (e) {
+      var btn = e.target.closest('.wellness-tab');
+      if (!btn) return;
+      var target = btn.getAttribute('data-wellness-tab');
+      wellnessTabs.querySelectorAll('.wellness-tab').forEach(function (t) {
+        var isActive = t === btn;
+        t.classList.toggle('is-active', isActive);
+        t.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      wellnessCards.forEach(function (card) {
+        card.classList.toggle('is-active', card.getAttribute('data-wellness-panel') === target);
+      });
+    });
+  }
+
+  // Scroll progress bar
+  var progressBar = document.querySelector('.scroll-progress');
+  if (progressBar) {
+    var updateProgress = function () {
+      var scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      var pct = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
+      progressBar.style.width = pct + '%';
+    };
+    updateProgress();
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    window.addEventListener('resize', updateProgress);
+  }
+
+  // Back to top
+  var backToTop = document.querySelector('.back-to-top');
+  if (backToTop) {
+    var toggleBackToTop = function () {
+      backToTop.classList.toggle('is-visible', window.scrollY > 900);
+    };
+    toggleBackToTop();
+    window.addEventListener('scroll', toggleBackToTop, { passive: true });
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
   // Footer year
   var yearEl = document.getElementById('year');
   if (yearEl) { yearEl.textContent = new Date().getFullYear(); }

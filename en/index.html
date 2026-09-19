@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
-<link rel="stylesheet" href="../css/style.css?v=20260919a">
+<link rel="stylesheet" href="../css/style.css?v=20260919b">
 <link rel="preload" as="image" href="../gallery/hero/domek-taras.webp" fetchpriority="high">
 <script type="application/ld+json">
 {
@@ -117,6 +117,8 @@
 </head>
 <body>
 
+<div class="scroll-progress" aria-hidden="true"></div>
+
 <header class="site-header">
   <div class="site-header__row">
     <a href="index.html" class="logo"><svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#0284C7"/><text x="50" y="64" font-family="Georgia, serif" font-size="42" font-weight="600" fill="#fff" text-anchor="middle">ZC</text></svg>Zatoka <span>Cydrowa</span></a>
@@ -156,7 +158,7 @@
       <p class="text-lg measure-md">Apartments in Stegna, nestled in a pine forest. 1500 m from the beach.</p>
       <div class="hero__actions">
         <a class="btn btn-accent" href="#apartamenty">See our apartments</a>
-        <a class="btn btn-glass" href="tel:+48797315001"><svg class="icon"><use href="../icons.svg#icon-phone"></use></svg> Call to ask about dates</a>
+        <a class="btn btn-glass" href="tel:+48797315001"><svg class="icon"><use href="../icons.svg#icon-phone"></use></svg> Call now</a>
       </div>
     </div>
     <div class="container">
@@ -363,8 +365,13 @@
         <h2>On-site wellness zone</h2>
         <p>Hyperbaric chamber, sauna and solarium — available outside the summer season too.</p>
       </div>
+      <div class="wellness-tabs" role="tablist" aria-label="Wellness zone">
+        <button type="button" class="wellness-tab is-active" data-wellness-tab="komora" role="tab" aria-selected="true">Hyperbaric chamber</button>
+        <button type="button" class="wellness-tab" data-wellness-tab="sauna" role="tab" aria-selected="false">Sauna</button>
+        <button type="button" class="wellness-tab" data-wellness-tab="solarium" role="tab" aria-selected="false">Solarium</button>
+      </div>
       <div class="wellness-grid">
-        <article class="wellness-card reveal">
+        <article class="wellness-card reveal is-active" data-wellness-panel="komora">
           <span class="wellness-card__icon"><svg class="icon"><use href="../icons.svg#icon-thermometer"></use></svg></span>
           <h3>Hyperbaric chamber</h3>
           <p>Supports the body's recovery and a faster return to form after exercise.</p>
@@ -376,9 +383,9 @@
               <li>Available to Zatoka Cydrowa guests all year round</li>
             </ul>
           </div>
-          <a class="btn btn-accent" href="tel:+48797315001">Book a session</a>
+          <a class="btn btn-accent" href="tel:+48797315001">Call now</a>
         </article>
-        <article class="wellness-card reveal">
+        <article class="wellness-card reveal" data-wellness-panel="sauna">
           <span class="wellness-card__icon"><svg class="icon"><use href="../icons.svg#icon-spa"></use></svg></span>
           <h3>Sauna</h3>
           <p>Relaxation after a day at the beach and support for muscle recovery.</p>
@@ -390,9 +397,9 @@
               <li>Book by phone, no extra booking fees</li>
             </ul>
           </div>
-          <a class="btn btn-accent" href="tel:+48797315001">Book a session</a>
+          <a class="btn btn-accent" href="tel:+48797315001">Call now</a>
         </article>
-        <article class="wellness-card reveal">
+        <article class="wellness-card reveal" data-wellness-panel="solarium">
           <span class="wellness-card__icon"><svg class="icon"><use href="../icons.svg#icon-sun"></use></svg></span>
           <h3>Solarium</h3>
           <p>Available on site, whatever the weather outside.</p>
@@ -404,7 +411,7 @@
               <li>A perfect finish to a day spent by the sea</li>
             </ul>
           </div>
-          <a class="btn btn-accent" href="tel:+48797315001">Book a session</a>
+          <a class="btn btn-accent" href="tel:+48797315001">Call now</a>
         </article>
       </div>
     </div>
@@ -593,6 +600,10 @@
   </div>
 </footer>
 
+<button type="button" class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+
 <div class="mobile-fab" id="mobile-fab">
   <div class="mobile-fab__panel">
     <a href="tel:+48797315001"><svg class="icon"><use href="../icons.svg#icon-phone"></use></svg> 797 315 001</a>
@@ -617,6 +628,6 @@
   </div>
 </div>
 
-<script src="../js/main.js?v=20260917f" defer></script>
+<script src="../js/main.js?v=20260919b" defer></script>
 </body>
 </html>
