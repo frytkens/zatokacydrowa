@@ -50,15 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
         fabBtn.setAttribute('aria-expanded', 'false');
       }
     });
-
-    // Only show it once the visitor has scrolled past the top CTA, so it
-    // doesn't stack on top of a page that already leads with a call button.
-    var revealFabAt = 480;
-    var toggleFabVisibility = function () {
-      fab.classList.toggle('is-visible', window.scrollY > revealFabAt);
-    };
-    toggleFabVisibility();
-    window.addEventListener('scroll', toggleFabVisibility, { passive: true });
   }
 
   // Wellness tabs (mobile-only compact view; grid layout stays untouched on desktop)
@@ -81,27 +72,41 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Scroll progress bar
+  // Scroll-driven UI: FAB visibility, progress bar, back-to-top — a single
+  // rAF-throttled listener that reads scrollY (cheap) and never interleaves
+  // a geometry read with a style write, so scrolling never forces a
+  // synchronous layout (layout thrashing).
   var progressBar = document.querySelector('.scroll-progress');
-  if (progressBar) {
-    var updateProgress = function () {
-      var scrollable = document.documentElement.scrollHeight - window.innerHeight;
-      var pct = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
-      progressBar.style.width = pct + '%';
-    };
-    updateProgress();
-    window.addEventListener('scroll', updateProgress, { passive: true });
-    window.addEventListener('resize', updateProgress);
-  }
-
-  // Back to top
   var backToTop = document.querySelector('.back-to-top');
-  if (backToTop) {
-    var toggleBackToTop = function () {
-      backToTop.classList.toggle('is-visible', window.scrollY > 900);
+  if (fab || progressBar || backToTop) {
+    var maxScroll = 0;
+    var computeMaxScroll = function () {
+      maxScroll = document.documentElement.scrollHeight - window.innerHeight;
     };
-    toggleBackToTop();
-    window.addEventListener('scroll', toggleBackToTop, { passive: true });
+    computeMaxScroll();
+    window.addEventListener('resize', computeMaxScroll);
+    window.addEventListener('load', computeMaxScroll);
+
+    var scrollTicking = false;
+    var updateScrollUI = function () {
+      var y = window.scrollY;
+      if (fab) { fab.classList.toggle('is-visible', y > 480); }
+      if (backToTop) { backToTop.classList.toggle('is-visible', y > 900); }
+      if (progressBar) {
+        var pct = maxScroll > 0 ? (y / maxScroll) * 100 : 0;
+        progressBar.style.width = pct + '%';
+      }
+      scrollTicking = false;
+    };
+    window.addEventListener('scroll', function () {
+      if (!scrollTicking) {
+        window.requestAnimationFrame(updateScrollUI);
+        scrollTicking = true;
+      }
+    }, { passive: true });
+    updateScrollUI();
+  }
+  if (backToTop) {
     backToTop.addEventListener('click', function () {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
