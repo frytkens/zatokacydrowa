@@ -106,4 +106,12 @@ Redirect 301 /podziel-sie/ /index.html
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "geolocation=(), camera=(), microphone=()"
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # Content-Security-Policy — strona jest statyczna, jedyne zewnętrzne
+  # zasoby to Google Fonts (style/czcionki) i osadzona mapa Google Maps.
+  # script-src wymaga 'unsafe-inline' z powodu handlerów onclick= używanych
+  # w lightboxie (gallery); brak innych inline style="" w kodzie, więc
+  # style-src nie potrzebuje 'unsafe-inline'.
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
 </IfModule>
