@@ -2,7 +2,7 @@
 
 > Ten plik uzupełnia `llms.txt` o pełne fakty ze wszystkich podstron, żeby
 > asystenci AI mogli cytować konkretne dane bez konieczności renderowania
-> każdej strony osobno. Ostatnia aktualizacja: wrzesień 2026.
+> każdej strony osobno. Ostatnia aktualizacja: październik 2026.
 
 ## O obiekcie
 
