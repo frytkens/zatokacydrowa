@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (!images.length || !imgEl) return;
       imgEl.classList.remove('is-zoomed');
       imgEl.src = images[currentIndex];
-      if (counterEl) { counterEl.textContent = 'Zdjęcie ' + (currentIndex + 1) + ' / ' + images.length; }
+      if (counterEl) { counterEl.textContent = (document.documentElement.lang === 'en' ? 'Photo ' : 'Zdjęcie ') + (currentIndex + 1) + ' / ' + images.length; }
     }
     window.openLightbox = function (e, i, gallery, title) {
       if (e) { e.preventDefault(); }

@@ -772,6 +772,7 @@ html.js-tabs .wellness-tabs { display: flex; }
 .dist-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 .dist-table th, .dist-table td { text-align: left; padding: 0.6rem 0.6rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
 .dist-table th { color: var(--color-primary); font-weight: 700; }
+.text-link { color: var(--color-accent-light, #7dd3fc); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .location-links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.4rem; }
 .mx-auto { margin-left: auto; margin-right: auto; }
 .accent-light { color: var(--color-accent-light); }

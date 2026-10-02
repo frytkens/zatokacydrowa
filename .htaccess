@@ -41,10 +41,10 @@ Redirect 301 /pokoje/ /#apartamenty
 # --- Dzieci / atrakcje na miejscu ---
 Redirect 301 /sala-zabaw/ /dla-dzieci.html
 Redirect 301 /zatoczka-cydrowa/ /dla-dzieci.html
-Redirect 301 /atrakcje-w-zatoce-cydrowej/ /#wellness
-Redirect 301 /komora-hiperbaryczna-w-zatoce-cydrowej/ /#wellness
-Redirect 301 /solarium-w-zatoce-cydrowej/ /#wellness
-Redirect 301 /sauna/ /#wellness
+Redirect 301 /atrakcje-w-zatoce-cydrowej/ /wellness.html
+Redirect 301 /komora-hiperbaryczna-w-zatoce-cydrowej/ /wellness.html
+Redirect 301 /solarium-w-zatoce-cydrowej/ /wellness.html
+Redirect 301 /sauna/ /wellness.html
 
 # --- Okolica / atrakcje w okolicy ---
 Redirect 301 /atrakcje-okolice/ /okolica.html
