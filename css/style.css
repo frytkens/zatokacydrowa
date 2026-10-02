@@ -760,6 +760,19 @@ html.js-tabs .wellness-tabs { display: flex; }
 .measure-lg { max-width: 52rem; }
 .measure-xl { max-width: 800px; }
 .measure-max { max-width: 760px; }
+
+/* Long-form guide pages (okolica, dojazd) */
+.guide h2 { margin-top: 2.4rem; }
+.guide h3 { margin-top: 1.6rem; }
+.guide ul, .guide ol { padding-left: 1.3rem; }
+.guide li { margin: 0.35rem 0; }
+.guide .faq-list { margin-top: 1rem; }
+.text-muted { color: var(--color-text-muted); font-size: 0.88rem; }
+.table-wrap { overflow-x: auto; margin: 1rem 0 0.6rem; }
+.dist-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.dist-table th, .dist-table td { text-align: left; padding: 0.6rem 0.6rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+.dist-table th { color: var(--color-primary); font-weight: 700; }
+.location-links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.4rem; }
 .mx-auto { margin-left: auto; margin-right: auto; }
 .accent-light { color: var(--color-accent-light); }
 .testimonial-card__author-role { font-weight: 400; color: var(--color-text-muted); }

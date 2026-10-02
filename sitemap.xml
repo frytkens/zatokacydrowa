@@ -234,4 +234,40 @@
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/okolica.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/okolica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/okolica.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/okolica.html"/>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/okolica.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/okolica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/okolica.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/okolica.html"/>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/dojazd.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/dojazd.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/dojazd.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/dojazd.html"/>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zatokacydrowa.pl/en/dojazd.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zatokacydrowa.pl/dojazd.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zatokacydrowa.pl/en/dojazd.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zatokacydrowa.pl/dojazd.html"/>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

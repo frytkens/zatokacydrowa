@@ -47,7 +47,7 @@ Redirect 301 /solarium-w-zatoce-cydrowej/ /#wellness
 Redirect 301 /sauna/ /#wellness
 
 # --- Okolica / atrakcje w okolicy ---
-Redirect 301 /atrakcje-okolice/ /#okolica
+Redirect 301 /atrakcje-okolice/ /okolica.html
 
 # --- Kontakt / rezerwacje / polityka ---
 Redirect 301 /kontakt/ /kontakt.html
@@ -55,15 +55,15 @@ Redirect 301 /rezerwacje/ /kontakt.html
 Redirect 301 /polityka-prywatnosci/ /polityka-prywatnosci.html
 
 # --- Wpisy blogowe o okolicy (Stegna, Mierzeja Wiślana) ---
-# Nowa strona nie ma bloga — przekierowanie do sekcji okolicy zamiast 404.
-Redirect 301 /polomarket-stegna/ /#okolica
-Redirect 301 /dino-stegna/ /#okolica
-Redirect 301 /kosciol-najswietszego-serca-pana-jezusa-w-stegnie/ /#okolica
-Redirect 301 /muzeum-stutthof/ /#okolica
-Redirect 301 /zimowe-morsowanie/ /#okolica
-Redirect 301 /szlak-rowerowy/ /#okolica
-Redirect 301 /bursztynowa-komnata/ /#okolica
-Redirect 301 /bon-turystyczny/ /#okolica
+# Treść tych wpisów jest teraz na stronie okolica.html (przewodnik po okolicy).
+Redirect 301 /polomarket-stegna/ /okolica.html
+Redirect 301 /dino-stegna/ /okolica.html
+Redirect 301 /kosciol-najswietszego-serca-pana-jezusa-w-stegnie/ /okolica.html
+Redirect 301 /muzeum-stutthof/ /okolica.html
+Redirect 301 /zimowe-morsowanie/ /okolica.html
+Redirect 301 /szlak-rowerowy/ /okolica.html
+Redirect 301 /bursztynowa-komnata/ /okolica.html
+Redirect 301 /bon-turystyczny/ /okolica.html
 Redirect 301 /podziel-sie/ /
 
 # --- Jeden kanoniczny adres strony głównej: /index.html -> / (oraz /en/index.html -> /en/) ---
